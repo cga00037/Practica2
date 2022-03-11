@@ -175,7 +175,8 @@ h1:first-child {
     margin-top: 0;
 }
 a {
-    color: #900;
+    color: #3CFEFD;
+	font-weight: bold;
     text-decoration: none;
     border-bottom: 1px solid transparent;
 }
