@@ -7,10 +7,15 @@ El juego trata sobre un chico el cual ha tenido una adolescencia dura y su herma
 https://trello.com/b/oNrDc1AQ/pr%C3%A1ctica-2-d%C3%A1
 
 ## Capturas de pantalla Trello
+### 16/02/2022
 ![TrelloInicial](https://user-images.githubusercontent.com/99319104/157862898-309d59a5-d831-4a47-be90-500a65589b66.png)
+### 04/03/2022
 ![TrelloViernesNoche1](https://user-images.githubusercontent.com/99319104/157862916-86771cac-e3ea-468f-b9f4-8f5e54896e3c.PNG)
+### 08/03/2022
 ![TrelloMartesNoche1](https://user-images.githubusercontent.com/99319104/157862925-23a7dcc7-c8b7-4e96-b493-908e42feddd1.PNG)
+### 10/03/2022
 ![TrelloViernes2](https://user-images.githubusercontent.com/99319104/157862926-ad42dcb8-a470-46e9-89d2-2ed69250e453.PNG)
+### 12/03/2022
 ![TrelloFin](https://user-images.githubusercontent.com/99319104/157862939-057b3716-eb0b-462f-beb0-782f208772f1.PNG)
 
 ## Capturas de pantalla Telegram
