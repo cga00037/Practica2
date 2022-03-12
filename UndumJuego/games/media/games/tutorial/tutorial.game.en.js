@@ -30,27 +30,27 @@ undum.game.slideUpSpeed = 500
 undum.game.situations = {
     start: new undum.SimpleSituation(
 	
-        "<h1 > Capitulo 1: El Maestro</h1>\
+        "<h1 > Capítulo 1: El Maestro</h1>\
         <img src='media/vid/tanjiro-kamado.gif'>\
-        <p>Despues de una larga noche despiertas y recuerdas quien eres.\
-		Tu nombre es Kamado Tanjiro y tienes un unico objetivo en esta\
+        <p>Después de una larga noche despiertas y recuerdas quien eres.\
+		Tu nombre es Kamado Tanjiro y tienes un único objetivo en esta\
 		vida, que es salvar a tu hermana de la maldición de ser un\
 		demonio, para ello quieres convertirte en cazador de demonios.\
-		No es un camino facil, necesitas pasar una prueba la cual sin\
-		destreza con la katana no pasaras y podrias morir. Por eso, tienes\
+		No es un camino fácil, necesitas pasar una prueba la cual sin\
+		destreza con la katana no pasarás y podrías morir. Por eso, tienes\
 		como maestro a Sakonji Urokodaki, un antiguo cazador de demonios.\<br>\
 		Urokodaki te propone  <a href='reto'>un reto...</a></p>"
     ),
 	
 	reto: new undum.SimpleSituation(
         "<h1>El reto</h1>\
-		<p>El reto que te propone consiste en subir cada dia la montaña\
+		<p>El reto que te propone consiste en subir cada día la montaña\
 		Sagiri la cual está llena de trampas y peligros, y partir en dos\
 		la roca gigante que hay en la cima.\<br>\
 		\<br>\
 		<img src='./media/img/roca.jpg'>\
-		Pasan los dias y no consigues partir la roca, lo cual te genera\
-		desmotivacion y frustracion. Tienes 3 opciones:\<br>\
+		Pasan los días y no consigues partir la roca, lo cual te genera\
+		desmotivación y frustración. Tienes 3 opciones:\<br>\
 		1. Pese a tu pesimismo decides <a href='./entrenar'>seguir entrenando.\</a><br>\
 		2. Harto de la roca decides <a href='prueba'>ir directamente a la prueba.\</a><br>\
 		3. Decides llorarle a tu maestro Urokodaki para que <a href='fin1'>parta él la roca.</a></p>",
@@ -145,7 +145,7 @@ undum.game.situations = {
 		hubiera comido a casi todos los demás.\<br>\
 		\<br>\
 		<img src='./media/vid/demonio.gif'>\
-		Después de zanpárselo va a por ti,te quedas sin tiempo para pensar, tienes\
+		Después de zanpárselo va a por ti, te quedas sin tiempo para pensar, tienes\
 		que hacer algo:\<br>\
 		1. Sacas tu katana sin miramientos y <a href='duelo'>te enfrentas a él</a>.\<br>\
 		2. Te acongojas tanto que le tiras la katana a la cabeza y <a href='fin2'>sales corriendo</a>",
@@ -205,12 +205,6 @@ undum.game.situations = {
 		<img src='./media/vid/corta-cabeza.gif'>\
 		Después de la ardua batalla buscas refugio y <a href='regreso'>esperas a que acabe</a>\
 		la prueba.</p>",
-        {
-            enter: function (character, system, from) {
-                /*ini.style.display.length.toFixed;
-                ini.play();*/
-            }
-        }
     ),
 	
 	muerte: new undum.SimpleSituation(
@@ -219,13 +213,23 @@ undum.game.situations = {
 		<p> No aprendiste nada, por lo que no eres capaz de evitar que el\
 		demonio te coja. Tiene intención de comerte y no tienes ninguna\
 		posibilidad. Pides ayuda y ruegas por tu vida, aunque es en vano.\
-		Has sido deborado por un demonio. FIN.</p>", 
-        {
-            enter: function (character, system, from) {
-                /*ini.style.display.length.toFixed;
-                ini.play();*/
-            }
-        }
+		Has sido devorado por un demonio. FIN.</p>", 
+    ),
+	
+	regreso: new undum.SimpleSituation(
+        "<h1>Capitulo 3: El Regreso</h1>\
+		<p> La prueba ha finalizado y has conseguido convertirte en cazador de demonios.\
+		Coges el uniforme que te dan y vuelves con tu maestro y tu hermana.<br>\
+		Tu maestro te dice que tu hermana lleva dormida años, pero justo cuando\
+		llegas se despierta, te abraza y se vuelve a dormir.\
+		Tu maestro te da la enhorabuena y te comenta que todavía hay mucho camino\
+		por delante, y que ya estás preparado para marcharte de su casa.\
+		Antes de marcharte te agencias una caja para poder llevar a tu hermana-\
+	    demonio y que no le dé el sol durante el día. Preparas tu equipaje y\
+		te marchas de la casa de tu maestro mientras se despide de ti.<br>\
+		\<br>\
+		<img src='./media/vid/despido.gif'>\
+		Tu aventura como cazador de demonios está a punto de comenzar. <a href=''>Continuará...</a></p>",
     ),
 	
 	rezo: new undum.SimpleSituation(
@@ -244,22 +248,6 @@ undum.game.situations = {
 		las veces que le habías maltratado, y sin que tengas tiempo de\
 		reacción te pega un puñetazo con su puño de piedra y te aplasta\
 		el cráneo contra el suelo de una vez. Has muerto. FIN.</p>", 
-    ),
-	
-	regreso: new undum.SimpleSituation(
-        "<h1>Capitulo 3: El Regreso</h1>\
-		<p> La prueba ha finalizado y has conseguido convertirte en cazador de demonios.\
-		Coges el uniforme que te dan y vuelves con tu maestro y tu hermana.<br>\
-		Tu maestro te dice que tu hermana lleva dormida años, pero justo cuando\
-		llegas se despierta, te abraza y se vuelve a dormir.\
-		Tu maestro te da la enhorabuena y te comenta que todavía hay mucho camino\
-		por delante, y que ya estás preparado para marcharte de su casa.\
-		Antes de marcharte te agencias una caja para poder llevar a tu hermana\
-		-demonio y que no le dé el sol durante el día. Preparas tu equipaje y\
-		te marchas de la casa de tu maestro mientras se despide de ti.<br>\
-		\<br>\
-		<img src='./media/vid/despido.gif'>\
-		Tu aventura como cazador de demonios está a punto de comenzar. <a>Continuará...</a></p>",
     ),
 	
 	fin1: new undum.SimpleSituation(
